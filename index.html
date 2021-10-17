@@ -1,1 +1,9 @@
-<button>Klicka!</button>
+<button onclick="buttonClicked()">Klicka!</button>
+<p id="p"></p>
+<script>
+  var i = 0;
+  function buttonClick() {
+    i++;
+    document.getElementById("p").innerHTML = i;
+  }
+</script>
